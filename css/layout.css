@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: Sans-serif;
+}
+
+header {      
+    background-color: #3160E0;
+}
+
+main, footer {
+    padding-bottom: 2px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.standard-flex {
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.sp-around {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    width: 80%;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.style-dashed {
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.show-empty {
+    min-height: 200px;
+}
+
+.white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* upper header */
+
+.padding-upper-header {
+    padding: 5px 10px;
+     
+}
+
+.logo {
+    width: 20%;
+    text-align: start;
+}
+
+.link {
+    width: 60%;
+}
+
+.login {
+    width: 20%;
+}
+
+.button {
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 30px;
+    padding: 2px 5px;
+    margin: 5px 10px;
+}
+
+.white-button {
+    color: black;
+    background-color: white;
+}
+
+/* fine upper header - inizio lower header*/
+
+.bg-blue {
+    background-color: blue;
+}
+
+.sub-box-lower-header {    
+    width: 50%;
+    min-height: 325px;
+    
+}
+
+#lower-header-bg {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+
+/* fine lower header - inizio pages*/
+
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* fine pages - inizio boxes */
+
+.cerulean-box {
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.pink-box {
+    width: 30%;
+    background-color: pink;
+}
+
+.big-green-box {
+    width: 80%;
+    background-color: green;
+}
+
+/*  fine boxes - inizio last page */
+
+.meat-box {
+    background-color: rgb(195, 4, 80);
+    min-width: 20%;
+}
+
+.aqua-box {
+    background-color: aqua;
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+    flex-grow: 1;
+    max-width: 15%;
+}
+
+/* footer  */
+
+.lowered-centered {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1em 2em 0;
+}
+
+.aquamarine-box {
+    background-color: aquamarine;
+    width: 80%;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.flexbox-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
